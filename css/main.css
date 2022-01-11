@@ -1,0 +1,43 @@
+/* reset */
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+/* page defaults */
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+/* general classes */
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.dark {
+    background-color: aliceblue;
+    color: violet;
+}
+
+/* specifics */
+body{
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 0.5rem 0.5rem; 
+}
