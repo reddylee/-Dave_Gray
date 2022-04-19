@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.col  {
+    columns: 4 250px;
+    column-rule: 3px solid red;
+    column-gap: 2rem;
+}
+
+.col p{
+    margin-top: 2rem;
+}
+
+.col h2{
+    margin-top: 0;
+    background-color:fuchsia;
+    color: #fff;
+    padding: 1rem;
+    break-inside: avoid;
+    #break-before: column;
+}
+
+.col .quote{
+    font-size: 3rem;
+    text-align: center;
+    column-span: all;
+}
+
+.nowrap{
+    white-space: nowrap;
+}

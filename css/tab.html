@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tab.css">
+    <script src="tab.js" defer></script>
+    <title>Tab</title>
+
+</head>
+<body>
+    <ul class="tabs">
+        <li class="active tab" data-tab-target="#home">Home</li>
+        <li class="tab" data-tab-target="#price">Price</li>
+        <li class="tab" data-tab-target="#about">About</li>
+    </ul>
+    <div class="tab-content">
+        <div id="home" data-tab-content class="active">
+            <h1>Home</h1>
+            <p>This is home page.</p>
+        </div>
+    </div>
+    <div class="tab-content">
+        <div id="price" data-tab-content>
+            <h1>Price</h1>
+            <p>It is free.</p>
+        </div>
+    </div >
+    <div class="tab-content">
+        <div id="about" data-tab-content>
+            <h1>About</h1>
+            <p>Something about me. This is a place to study.</p>
+        </div>
+    </div>
+</body>
+</html>
